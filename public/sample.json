@@ -1,0 +1,408 @@
+[
+  {
+      "product_id": 201,
+      "title": "Apple iPhone 13 Pro (128GB) - Sierra Blue",
+      "images": 
+          "https://techterminal.ie/wp-content/uploads/2024/07/Untitled_3_bb080b4c-9eb0-412b-8e95-e00f8632f355.webp",
+      "price": 119999,
+      "discountPercentage": 7,
+      "stock": 15,
+      "description": "Apple iPhone 13 Pro with A15 Bionic chip, 6.1-inch Super Retina XDR display, and Pro camera system.",
+      "category": "mobile phones",
+      "colors": ["Sierra Blue", "Graphite", "Gold"],
+      "sizes": ["128GB", "256GB", "512GB"],
+      "toCart": true
+  },
+  {
+      "product_id": 202,
+      "title": "Samsung Galaxy Z Fold3 5G (256GB) - Phantom Black",
+      "images": 
+          "https://5.imimg.com/data5/SELLER/Default/2022/11/LH/QS/EK/43819962/71mdat-vh1l-sl1500--500x500.jpg",
+      "price": 149999,
+      "discountPercentage": 10,
+      "stock": 10,
+      "description": "Samsung Galaxy Z Fold3 with 7.6-inch AMOLED 2X display, Snapdragon 888, and triple camera setup.",
+      "category": "mobile phones",
+      "colors": ["Phantom Black", "Phantom Green"],
+      "sizes": ["256GB", "512GB"],
+      "toCart": false
+  },
+  {
+      "product_id": 203,
+      "title": "Nike Air Max 270 - Men's Sneakers",
+      "images":
+        "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/trm9jrvijzuqzmkyah2t/air-max-270-mens-shoes-KkLcGR.png",
+      "price": 12999,
+      "discountPercentage": 15,
+      "stock": 80,
+      "description": "Nike Air Max 270 features the largest Air unit in the heel for a soft, bouncy ride.",
+      "category": "footwear",
+      "sizes": ["7", "8", "9", "10", "11"],
+      "colors": ["Black", "White", "Red"],
+      "toCart": false
+  },
+  {
+      "product_id": 204,
+      "title": "Sony PlayStation 5 (PS5) Console",
+      "images":
+          "https://5.imimg.com/data5/SELLER/Default/2022/11/JO/PB/FN/161643787/sony-playstation-5-console-500x500.jpg",
+      "price": 49999,
+      "discountPercentage": 5,
+      "stock": 50,
+      "description": "Sony PlayStation 5 console with ultra-high-speed SSD, integrated I/O, and immersive 3D audio.",
+      "category": "electronics",
+      "colors": ["White"],
+      "sizes": ["Standard", "Digital Edition"],
+      "toCart": false
+  },
+  {
+      "product_id": 205,
+      "title": "Adidas Ultraboost 21 - Women's Running Shoes",
+      "images":
+          "https://assets.adidas.com/images/w_600,f_auto,q_auto/50d48e06a6984cf28676b3f18dcafe58_9366/Ultraboost_Light_Shoes_White_IE5839.jpg",
+      "price": 17999,
+      "discountPercentage": 20,
+      "stock": 60,
+      "description": "Adidas Ultraboost 21 with responsive Boost midsole and Primeknit upper for maximum comfort.",
+      "category": "footwear",
+      "sizes": ["5", "6", "7", "8"],
+      "colors": ["White", "Pink", "Black"],
+      "toCart": false
+  },
+  {
+      "product_id": 206,
+      "title": "Apple MacBook Pro (M1, 2023) - 13-inch, 256GB SSD",
+      "images":
+          "https://www.aptronixindia.com/media/catalog/product/cache/31f0162e6f7d821d2237f39577122a8a/m/b/mbp-spacegray-select-202206-removebg-preview_1.png",
+      "price": 129999,
+      "discountPercentage": 8,
+      "stock": 25,
+      "description": "Apple MacBook Pro with M1 chip, 8-core CPU, 8-core GPU, and up to 20 hours of battery life.",
+      "category": "laptops",
+      "colors": ["Space Grey", "Silver"],
+      "sizes": ["256GB SSD", "512GB SSD"],
+      "toCart": false
+  },
+  {
+      "product_id": 207,
+      "title": "Bose QuietComfort 35 II Wireless Bluetooth Headphones",
+      "images":
+          "https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc35_ii/images/qc35_ii_product_page_hotspot_silo_1x1.psd/jcr:content/renditions/cq5dam.web.320.320.jpeg",
+      "price": 24999,
+      "discountPercentage": 12,
+      "stock": 35,
+      "description": "Bose QuietComfort 35 II with world-class noise cancellation and voice assistant integration.",
+      "category": "electronics",
+      "colors": ["Black", "Silver"],
+      "toCart": false
+  },
+  {
+      "product_id": 208,
+      "title": "Samsung 32L Convection Microwave Oven",
+      "images":
+          "https://m.media-amazon.com/images/I/71ctGJjnIDL._AC_UF1000,1000_QL80_.jpg",
+      "price": 15999,
+      "discountPercentage": 10,
+      "stock": 45,
+      "description": "Samsung 32L microwave with convection cooking, grill, and auto-cook features for easy meal prep.",
+      "category": "home appliances",
+      "colors": ["Black"],
+      "capacity": "32 Litres",
+      "toCart": false
+  },
+  {
+      "product_id": 209,
+      "title": "Canon EOS 1500D DSLR Camera with 18-55mm Lens",
+      "images":
+          "https://rukminim2.flixcart.com/image/850/1000/kk01pjk0/dslr-camera/s/q/k/eos-1500d-canon-original-imafzfughbzn7tmg.jpeg?q=90&crop=false",
+      "price": 32999,
+      "discountPercentage": 15,
+      "stock": 20,
+      "description": "Canon EOS 1500D with 24.1 MP APS-C CMOS sensor, DIGIC 4+ processor, and full HD video recording.",
+      "category": "electronics",
+      "colors": ["Black"],
+      "sizes": ["18-55mm Lens"],
+      "toCart": false
+  },
+  {
+      "product_id": 210,
+      "title": "LG 7 Kg 5 Star Inverter Fully Automatic Front Load Washing Machine",
+      "images":
+          "https://m.media-amazon.com/images/I/71msFUl565L.jpg",
+      "price": 29999,
+      "discountPercentage": 10,
+      "stock": 15,
+      "description": "LG washing machine with 5-star energy rating, inverter direct drive motor, and 6 motion control technology.",
+      "category": "home appliances",
+      "colors": ["Silver"],
+      "capacity": "7 Kg",
+      "toCart": true
+  },
+  {
+      "product_id": 211,
+      "title": "Levi's Men's Slim Fit Jeans",
+      "images":
+          "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTLC56jPo5EwrwvtpVo_CN3XGpSeDZmJbqkVW45S6o4tM8dL-eXXtjE9KkKjNEqXjBKgmGqoDowxyB9dFOk5Jjhx7PYCs2c8v1gZahA1ImLjbpgc7ARbT26xvpTXjD24FsNMSjzdkPN&usqp=CAc",
+      "price": 3999,
+      "discountPercentage": 10,
+      "stock": 120,
+      "description": "Levi's slim fit jeans with stretch denim, 5-pocket styling, and iconic arcuate stitching.",
+      "category": "clothing",
+      "sizes": ["30", "32", "34", "36", "38"],
+      "colors": ["Blue", "Black"],
+      "toCart": false
+  },
+  {
+      "product_id": 212,
+      "title": "Ray-Ban Wayfarer Sunglasses",
+      "images":
+          "data:image/jpeg;base64,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",
+      "price": 7999,
+      "discountPercentage": 12,
+      "stock": 60,
+      "description": "Ray-Ban Wayfarer sunglasses with classic design and 100% UV protection.",
+      "category": "accessories",
+      "colors": ["Black", "Tortoise"],
+      "toCart": false
+  },
+  {
+      "product_id": 213,
+      "title": "Samsung Galaxy Watch4 (44mm) - Silver",
+      "images":
+          "https://rukminim2.flixcart.com/image/850/1000/xif0q/smartwatch/p/e/x/-original-imagxp8ubje9h6z9.jpeg?q=90&crop=false",
+      "price": 23999,
+      "discountPercentage": 15,
+      "stock": 50,
+      "description": "Samsung Galaxy Watch4 with advanced fitness tracking, ECG monitoring, and AMOLED display.",
+      "category": "wearables",
+      "colors": ["Silver", "Black"],
+      "toCart": false
+  },
+  {
+      "product_id": 214,
+      "title": "HP Pavilion Gaming Laptop (Ryzen 5 4600H, GTX 1650)",
+      "images":
+          "https://m.media-amazon.com/images/I/71VlaIUD10L.jpg",
+      "price": 68999,
+      "discountPercentage": 10,
+      "stock": 30,
+      "description": "HP Pavilion Gaming laptop with AMD Ryzen 5 4600H, NVIDIA GTX 1650, 8GB RAM, and 512GB SSD.",
+      "category": "laptops",
+      "colors": ["Shadow Black"],
+      "sizes": ["8GB RAM, 512GB SSD"],
+      "toCart": false
+  },
+  {
+      "product_id": 215,
+      "title": "Adidas Men's Adilette Comfort Slides",
+      "images": 
+          "https://img.tatacliq.com/images/i12/437Wx649H/MP000000012109272_437Wx649H_202307142255591.jpeg",
+      "price": 2999,
+      "discountPercentage": 20,
+      "stock": 100,
+      "description": "Adidas Adilette slides with soft cushioning and durable outsole, perfect for casual wear.",
+      "category": "footwear",
+      "sizes": ["7", "8", "9", "10", "11"],
+      "colors": ["Black", "Navy"],
+      "toCart": false
+  },
+  {
+      "product_id": 216,
+      "title": "Samsung 43-inch 4K UHD Smart LED TV",
+      "images":
+          "https://images-cdn.ubuy.co.in/64b0dddbabf4e1595f0c5ffe-samsung-43-class-4k-uhd-2160p-led-smart.jpg",
+      "price": 39999,
+      "discountPercentage": 12,
+      "stock": 30,
+      "description": "Samsung 43-inch 4K UHD Smart TV with PurColor, HDR, and Smart Hub features.",
+      "category": "electronics",
+      "colors": ["Black"],
+      "toCart": false
+  },
+  {
+      "product_id": 217,
+      "title": "Sony WH-XB900N Wireless Extra Bass Headphones",
+      "images":
+          "https://www.jiomart.com/images/product/original/492796750/sony-xb910n-wireless-bluetooth-headphone-with-extra-bass-noise-cancellation-black-digital-o492796750-p591218005-0-202204052224.jpeg?im=Resize=(420,420)",
+      "price": 15999,
+      "discountPercentage": 15,
+      "stock": 45,
+      "description": "Sony WH-XB900N headphones with Extra Bass, noise cancellation, and up to 30 hours of battery life.",
+      "category": "electronics",
+      "colors": ["Black", "Blue"],
+      "toCart": false
+  },
+  {
+      "product_id": 218,
+      "title": "OnePlus 9R 5G (128GB) - Carbon Black",
+      "images":
+          "https://m.media-amazon.com/images/I/61kL3A-U20S.jpg",
+      "price": 39999,
+      "discountPercentage": 8,
+      "stock": 60,
+      "description": "OnePlus 9R with Snapdragon 870, 6.55-inch Fluid AMOLED display, and 65W fast charging.",
+      "category": "mobile phones",
+      "colors": ["Carbon Black", "Lake Blue"],
+      "sizes": ["128GB", "256GB"],
+      "toCart": false
+  },
+  {
+      "product_id": 219,
+      "title": "Canon PIXMA G2012 All-in-One Ink Tank Colour Printer",
+      "images":
+          "https://5.imimg.com/data5/SELLER/Default/2022/8/OT/HK/EN/15936267/canon-pixma-g2012-all-in-one-ink-tank-colour-printer.webp",
+      "price": 13999,
+      "discountPercentage": 10,
+      "stock": 25,
+      "description": "Canon PIXMA G2012 with high page yield, borderless printing, and integrated ink tanks.",
+      "category": "electronics",
+      "colors": ["Black"],
+      "toCart": false
+  },
+  {
+      "product_id": 220,
+      "title": "Dell Inspiron 15 (2023) - Intel Core i5, 512GB SSD",
+      "images":
+          "https://m.media-amazon.com/images/I/61XP1hMllZL._AC_UF1000,1000_QL80_.jpg",
+      "price": 65999,
+      "discountPercentage": 8,
+      "stock": 30,
+      "description": "Dell Inspiron 15 with Intel Core i5-1135G7, 8GB RAM, 512GB SSD, and 15.6-inch FHD display.",
+      "category": "laptops",
+      "colors": ["Platinum Silver"],
+      "sizes": ["8GB RAM, 512GB SSD"],
+      "toCart": false
+  },
+  {
+      "product_id": 221,
+      "title": "Fossil Men's Gen 5E Smartwatch",
+      "images":
+          "https://www.kamalwatch.com/cdn/shop/products/1231821-fossilgen5egreysmartwatchftw4049.jpg?v=1685438808",
+      "price": 19999,
+      "discountPercentage": 12,
+      "stock": 40,
+      "description": "Fossil Gen 5E smartwatch with Wear OS by Google, heart rate monitoring, and customizable watch faces.",
+      "category": "wearables",
+      "colors": ["Black", "Rose Gold"],
+      "toCart": false
+  },
+  {
+      "product_id": 222,
+      "title": "Apple iPad Air (2022) Wi-Fi + Cellular, 256GB - Space Grey",
+      "images":
+          "https://www.jiomart.com/images/product/original/491997823/apple-ipad-9th-gen-2021-25-91-cm-10-2-inch-wi-fi-cellular-tablet-256-gb-space-grey-mk4e3hn-a-digital-o491997823-p590798682-1-202109210548.jpeg?im=Resize=(420,420)",
+      "price": 77900,
+      "discountPercentage": 7,
+      "stock": 15,
+      "description": "Apple iPad Air with A14 Bionic chip, 10.9-inch Liquid Retina display, and 12MP back camera.",
+      "category": "tablets",
+      "colors": ["Space Grey", "Silver", "Rose Gold"],
+      "toCart": false
+  },
+  {
+      "product_id": 223,
+      "title": "Nike Men's Sportswear Club Fleece Hoodie",
+      "images":
+          "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d0d6ef07-c448-4aae-ac3a-e988d65a158e/club-fleece-oversized-french-terry-pullover-hoodie-Q4CFQt.png",
+      "price": 4499,
+      "discountPercentage": 10,
+      "stock": 120,
+      "description": "Nike Sportswear Club Fleece hoodie with brushed-back fleece fabric and adjustable drawstring hood.",
+      "category": "clothing",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Black", "Grey", "Navy"],
+      "toCart": false
+  },
+  {
+      "product_id": 224,
+      "title": "Sony Bravia 55-inch 4K Ultra HD Smart LED TV",
+      "images":
+          "https://m.media-amazon.com/images/I/81MRU+3RJLL._AC_UF1000,1000_QL80_.jpg",
+      "price": 64999,
+      "discountPercentage": 15,
+      "stock": 25,
+      "description": "Sony Bravia 55-inch 4K TV with HDR, Triluminos display, and voice control.",
+      "category": "electronics",
+      "colors": ["Black"],
+      "toCart": false
+  },
+  {
+      "product_id": 225,
+      "title": "Asus ROG Strix G15 (Ryzen 7 4800H, RTX 3050)",
+      "images":
+          "https://m.media-amazon.com/images/I/81fZmxBbQgL.jpg",
+      "price": 89999,
+      "discountPercentage": 10,
+      "stock": 20,
+      "description": "Asus ROG Strix G15 gaming laptop with AMD Ryzen 7 4800H, NVIDIA RTX 3050, and 144Hz display.",
+      "category": "laptops",
+      "colors": ["Eclipse Grey"],
+      "sizes": ["16GB RAM, 1TB SSD"],
+      "toCart": false
+  },
+  {
+      "product_id": 226,
+      "title": "Fitbit Charge 5 Fitness & Health Tracker",
+      "images":
+          "https://m.media-amazon.com/images/I/61PmMzYM4qL.jpg",
+      "price": 14999,
+      "discountPercentage": 10,
+      "stock": 40,
+      "description": "Fitbit Charge 5 with built-in GPS, stress management, and sleep tracking features.",
+      "category": "wearables",
+      "colors": ["Black", "Lunar White"],
+      "toCart": false
+  },
+  {
+      "product_id": 227,
+      "title": "Apple AirPods Pro with MagSafe Charging Case",
+      "images":
+          "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJV3?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1694014871985",
+      "price": 24999,
+      "discountPercentage": 5,
+      "stock": 50,
+      "description": "Apple AirPods Pro with active noise cancellation, transparency mode, and MagSafe charging.",
+      "category": "accessories",
+      "colors": ["White"],
+      "toCart": false
+  },
+  {
+      "product_id": 228,
+      "title": "Bose SoundLink Revolve+ Bluetooth Speaker",
+      "images":
+          "https://m.media-amazon.com/images/I/71eJQYXTVxL.jpg",
+      "price": 29999,
+      "discountPercentage": 10,
+      "stock": 20,
+      "description": "Bose SoundLink Revolve+ Bluetooth speaker with 360-degree sound and up to 16 hours of battery life.",
+      "category": "electronics",
+      "colors": ["Triple Black", "Lux Grey"],
+      "toCart": false
+  },
+  {
+      "product_id": 229,
+      "title": "Logitech MX Master 3 Advanced Wireless Mouse",
+      "images":
+          "https://ntptechstore.com/wp-content/uploads/2024/03/Logitech-Mx-Master-3s.png",
+      "price": 9999,
+      "discountPercentage": 10,
+      "stock": 30,
+      "description": "Logitech MX Master 3 with ultra-fast scroll wheel, ergonomic design, and customizable buttons.",
+      "category": "accessories",
+      "colors": ["Graphite", "Midnight Teal"],
+      "toCart": false
+  },
+  {
+      "product_id": 230,
+      "title": "Samsung Galaxy Tab S7 FE Wi-Fi, 128GB",
+      "images":
+          "https://cdn1.smartprix.com/rx-iSHTksf6E-w420-h420/samsung-galaxy-tab-s.jpg",
+      "price": 49999,
+      "discountPercentage": 12,
+      "stock": 25,
+      "description": "Samsung Galaxy Tab S7 FE with 12.4-inch display, S Pen support, and Snapdragon 750G.",
+      "category": "tablets",
+      "colors": ["Mystic Black", "Mystic Silver"],
+      "toCart": false
+  }
+]
