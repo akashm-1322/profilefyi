@@ -13,8 +13,9 @@ img{
     background-color: #0faade;
     box-shadow: 2px 2px 2px;
 }
-.form-control{
-    box-shadow: 2px 2px 2px; 
+.form-control,.search-button{
+    box-shadow: 5px 5px 5px; 
+    border: 1px solid black;
 }
 .add-to-cart{
     display: flex;
@@ -22,7 +23,8 @@ img{
     color:black;
     gap: 5px;
 }
-.number{
-    float: center;
-    align-self: center;
+.search-button{
+    background-color: #689aab;
+    border: 1px solid black;
+    color: black;
 }

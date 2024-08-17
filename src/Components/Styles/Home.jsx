@@ -7,6 +7,7 @@ import CartPage from './CartPage';
 const Home = () => {
     const [cart, setCart] = useState([]);
     const [data, setData] = useState([]);
+    const total = 0;
 
     useEffect(() => {
         fetch('/sample.json')
@@ -34,11 +35,10 @@ const Home = () => {
         setCart(cart.filter(item => item.id !== id));
     };
 
-    const totalQuantity = cart.reduce((total, item) => total + item.quantity, 0);
 
     return (
         <Router>
-            <Navbar totalQuantity={totalQuantity} />
+            <Navbar/>
             <Routes>
                 <Route 
                     path="/" 

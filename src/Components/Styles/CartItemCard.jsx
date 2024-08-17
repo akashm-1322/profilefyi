@@ -10,6 +10,12 @@ const CartItemCard = ({ item, updateQuantity, removeFromCart , stock }) => {
         setEditMode(false);
     };
 
+    const handleQuantityChange = (e) => {
+        const newQuantity = parseInt(e.target.value);
+        setQuantity(newQuantity);
+        updateQuantity(item.id, newQuantity);
+    };
+
     return (
         <div className="card mb-4">
             <img className="card-img-top" src={item.images} alt={item.title} />
@@ -18,6 +24,8 @@ const CartItemCard = ({ item, updateQuantity, removeFromCart , stock }) => {
                 <p className="card-text">Price: ₹{item.price}</p>
                 <p className="card-text">Discounted Price: ₹{item.price - (item.discountPercentage * 0.01 * item.price)}</p>
 
+
+                
                 {editMode ? (
                     <div>
                         <input 
