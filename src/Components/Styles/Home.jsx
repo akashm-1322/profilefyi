@@ -3,11 +3,12 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar';
 import ProductList from './ProductList';
 import CartPage from './CartPage';
+import OrderConfirmation from './OrderConfirmation';
 
 const Home = () => {
     const [cart, setCart] = useState([]);
     const [data, setData] = useState([]);
-    const total = 0;
+    const [money, setMoney] = useState(0);
 
     useEffect(() => {
         fetch('/sample.json')
@@ -23,6 +24,20 @@ const Home = () => {
         ]);
     };
 
+    // Calculate the total money whenever the cart changes
+    useEffect(() => {
+        const totalCost = cart.reduce((total, item) => {
+            const price = item.price || 0; // Ensure price is a number
+            const discountPercentage = item.discountPercentage || 0; // Ensure discountPercentage is a number
+            const quantity = item.quantity || 1; // Ensure quantity is a number
+
+            const discountedPrice = price - (price * discountPercentage * 0.01);
+            return total + (discountedPrice * quantity);
+        }, 0);
+
+        setMoney(totalCost);
+    }, [cart]);
+
     const updateQuantity = (id, quantity) => {
         setCart(prevCart =>
             prevCart.map(item =>
@@ -32,13 +47,26 @@ const Home = () => {
     };
 
     const removeFromCart = (id) => {
-        setCart(cart.filter(item => item.id !== id));
+        setCart(prevCart => 
+            prevCart.map(item => {
+                if (item.id === id) {
+                    if (item.quantity > 1) {
+                        // Decrease the quantity by 1
+                        return { ...item, quantity: item.quantity - 1 };
+                    } else {
+                        // Remove the item completely if quantity is 1
+                        return null;
+                    }
+                }
+                return item;
+            }).filter(item => item !== null) // Filter out null items
+        );
     };
-
+    
 
     return (
         <Router>
-            <Navbar/>
+            <Navbar />
             <Routes>
                 <Route 
                     path="/" 
@@ -53,6 +81,14 @@ const Home = () => {
                             removeFromCart={removeFromCart} 
                         />
                     } 
+                />
+                <Route 
+                    path="/BuyNow"
+                    element={
+                        <OrderConfirmation
+                            totalMoney={money}
+                        />
+                    }
                 />
             </Routes>
         </Router>

@@ -69,4 +69,28 @@
     margin-bottom: 0.5rem;
 }
 
+.total-cost{
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px;
+    align-items: center;
+    padding: 5px;
+    border-radius: 3%;
+    height: 100px;
+}
 
+.btn-success{
+    position: relative;
+}
+
+.backhome{
+    position: relative;
+    width: 120px;
+    height:40px;
+    color:black;
+    box-shadow: 2px 2px 2px;
+    border: 1px solid black;
+}
+.cart-flex{
+    display:flex;
+    flex-direction: column;
+}

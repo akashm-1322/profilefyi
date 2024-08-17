@@ -10,11 +10,7 @@ const CartItemCard = ({ item, updateQuantity, removeFromCart , stock }) => {
         setEditMode(false);
     };
 
-    const handleQuantityChange = (e) => {
-        const newQuantity = parseInt(e.target.value);
-        setQuantity(newQuantity);
-        updateQuantity(item.id, newQuantity);
-    };
+
 
     return (
         <div className="card mb-4">

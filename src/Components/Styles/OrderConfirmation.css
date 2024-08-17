@@ -5,6 +5,12 @@
     justify-content: center;
     height: 100vh;
     text-align: center;
+    border: 5px solid black;
+    width:90%;
+    height:90%;
+    box-shadow: 5px 5px 5px;
+    border-radius: 5px;
+    margin : 5%;
 }
 
 .order-confirmation h1 {
@@ -14,4 +20,10 @@
 
 .order-confirmation p {
     font-size: 1.5rem;
+}
+
+.homeback{
+    border: 2px solid black;
+    color: black;
+    box-shadow: 2px 2px 2px;
 }

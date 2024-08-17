@@ -1,16 +1,23 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import './OrderConfirmation.css';
 
 const OrderConfirmation = () => {
+    const navigate = useNavigate();
     const location = useLocation();
-    const { totalCost } = location.state || { totalCost: 0 };
+    const { totalMoney } = location.state || { totalMoney: 0 };
 
-    return (
+    const handleGoHome = () => {
+        navigate('/');
+    };
+
+    return (<div>
         <div className="order-confirmation">
             <h1>Your Order is Placed</h1>
-            <p>Total Cost: ₹{totalCost}</p>
+            <p>Total Cost: ₹{totalMoney}</p>   
         </div>
+        <button className="btn homeback btn-primary" onClick={handleGoHome}>Go to Home</button>
+         </div>
     );
 };
 
