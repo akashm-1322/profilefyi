@@ -11,7 +11,8 @@
       "category": "mobile phones",
       "colors": ["Sierra Blue", "Graphite", "Gold"],
       "sizes": ["128GB", "256GB", "512GB"],
-      "toCart": true
+      "toCart": true,
+      "features":"https://www.apple.com/by/iphone-13-pro/specs/"
   },
   {
       "product_id": 202,
@@ -25,13 +26,14 @@
       "category": "mobile phones",
       "colors": ["Phantom Black", "Phantom Green"],
       "sizes": ["256GB", "512GB"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://uae.sharafdg.com/product/samsung-galaxy-z-fold3-5g-256gb-phantom-black-smartphone/"
   },
   {
       "product_id": 203,
       "title": "Nike Air Max 270 - Men's Sneakers",
       "images":
-        "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/trm9jrvijzuqzmkyah2t/air-max-270-mens-shoes-KkLcGR.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/covmdnim1rkbkbxtm23v/NIKE+AIR+MAX+270+%28GS%29.png",
       "price": 12999,
       "discountPercentage": 15,
       "stock": 80,
@@ -39,7 +41,8 @@
       "category": "footwear",
       "sizes": ["7", "8", "9", "10", "11"],
       "colors": ["Black", "White", "Red"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.nike.com/in/t/air-max-270-older-shoe-QSWMsF"
   },
   {
       "product_id": 204,
@@ -53,7 +56,8 @@
       "category": "electronics",
       "colors": ["White"],
       "sizes": ["Standard", "Digital Edition"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.playstation.com/en-in/ps5/"
   },
   {
       "product_id": 205,
@@ -67,7 +71,8 @@
       "category": "footwear",
       "sizes": ["5", "6", "7", "8"],
       "colors": ["White", "Pink", "Black"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://adidas.co.in/ultraboost"
   },
   {
       "product_id": 206,
@@ -81,7 +86,8 @@
       "category": "laptops",
       "colors": ["Space Grey", "Silver"],
       "sizes": ["256GB SSD", "512GB SSD"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://support.apple.com/en-in/111893"
   },
   {
       "product_id": 207,
@@ -94,7 +100,8 @@
       "description": "Bose QuietComfort 35 II with world-class noise cancellation and voice assistant integration.",
       "category": "electronics",
       "colors": ["Black", "Silver"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.boseapac.com/en_in/products/headphones/over_ear_headphones/quietcomfort-35-wireless-ii.html"
   },
   {
       "product_id": 208,
@@ -108,7 +115,8 @@
       "category": "home appliances",
       "colors": ["Black"],
       "capacity": "32 Litres",
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.samsung.com/in/microwave-ovens/convection/mc32a7035cttl-mc32a7035ct-tl/"
   },
   {
       "product_id": 209,
@@ -122,7 +130,8 @@
       "category": "electronics",
       "colors": ["Black"],
       "sizes": ["18-55mm Lens"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://in.canon/en/consumer/eos-1500d-kit-ef-s18-55-is-ii/product"
   },
   {
       "product_id": 210,
@@ -136,7 +145,8 @@
       "category": "home appliances",
       "colors": ["Silver"],
       "capacity": "7 Kg",
-      "toCart": true
+      "toCart": true,
+      "features":"https://www.lg.com/in/laundry/washer-dryers/?ec_model_status_code=ACTIVE%3Futm_source%3Dgoogle-ads&utm_medium=cpc&utm_campaign=%7Bcampaign.id%7D&utm_content=text&utm_source=google&utm_adgroup=%7Badgroup.id%7D&utm_ad=%7Bcreative.id%7D&utm_placement=&utm_device=c&utm_matchtype=p&utm_adposition=&utm_network=g&gad_source=1&gclid=CjwKCAjw8fu1BhBsEiwAwDrsjOvQUkcv9lP9Camex4rfLFrtoY0mFd2f9vUm8-AsJ-CT4nkgTc4VxhoCnB0QAvD_BwE"
   },
   {
       "product_id": 211,
@@ -150,7 +160,8 @@
       "category": "clothing",
       "sizes": ["30", "32", "34", "36", "38"],
       "colors": ["Blue", "Black"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://levi.in/collections/men-jeans?filter.v.price.gte=&filter.v.price.lte=&filter.v.availability=1&sort_by=0"
   },
   {
       "product_id": 212,
@@ -163,7 +174,8 @@
       "description": "Ray-Ban Wayfarer sunglasses with classic design and 100% UV protection.",
       "category": "accessories",
       "colors": ["Black", "Tortoise"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://india.ray-ban.com/sunglasses/most-popular/original-wayfarer.html?_=1723793791259&p=5"
   },
   {
       "product_id": 213,
@@ -176,7 +188,8 @@
       "description": "Samsung Galaxy Watch4 with advanced fitness tracking, ECG monitoring, and AMOLED display.",
       "category": "wearables",
       "colors": ["Silver", "Black"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.samsung.com/in/watches/galaxy-watch/galaxy-watch4-black-bluetooth-sm-r870nzkainu/#specs"
   },
   {
       "product_id": 214,
@@ -190,7 +203,8 @@
       "category": "laptops",
       "colors": ["Shadow Black"],
       "sizes": ["8GB RAM, 512GB SSD"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://support.hp.com/za-en/document/c06936080"
   },
   {
       "product_id": 215,
@@ -204,7 +218,8 @@
       "category": "footwear",
       "sizes": ["7", "8", "9", "10", "11"],
       "colors": ["Black", "Navy"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.adidas.co.in/adilette-shower-slides/GZ3772.html"
   },
   {
       "product_id": 216,
@@ -217,7 +232,8 @@
       "description": "Samsung 43-inch 4K UHD Smart TV with PurColor, HDR, and Smart Hub features.",
       "category": "electronics",
       "colors": ["Black"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.samsung.com/in/tvs/uhd-4k-tv/cue60--43-inch-ua43cue60aklxl/"
   },
   {
       "product_id": 217,
@@ -230,7 +246,8 @@
       "description": "Sony WH-XB900N headphones with Extra Bass, noise cancellation, and up to 30 hours of battery life.",
       "category": "electronics",
       "colors": ["Black", "Blue"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.sony.ee/electronics/headband-headphones/wh-xb900n"
   },
   {
       "product_id": 218,
@@ -244,7 +261,8 @@
       "category": "mobile phones",
       "colors": ["Carbon Black", "Lake Blue"],
       "sizes": ["128GB", "256GB"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.oneplus.in/9r/specs"
   },
   {
       "product_id": 219,
@@ -257,7 +275,8 @@
       "description": "Canon PIXMA G2012 with high page yield, borderless printing, and integrated ink tanks.",
       "category": "electronics",
       "colors": ["Black"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://in.canon/en/consumer/pixma-g2730/product?category=printing&subCategory=inkjet-printers"
   },
   {
       "product_id": 220,
@@ -271,7 +290,8 @@
       "category": "laptops",
       "colors": ["Platinum Silver"],
       "sizes": ["8GB RAM, 512GB SSD"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.dell.com/en-in/shop/business-laptop-notebook-computers/inspiron-14-laptop/spd/inspiron-14-5440-laptop/sin5440340201dinu1?view=configurations"
   },
   {
       "product_id": 221,
@@ -284,7 +304,8 @@
       "description": "Fossil Gen 5E smartwatch with Wear OS by Google, heart rate monitoring, and customizable watch faces.",
       "category": "wearables",
       "colors": ["Black", "Rose Gold"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.fossil.com/en-in/watches/learn-more/gen-5e-smartwatches/"
   },
   {
       "product_id": 222,
@@ -297,7 +318,8 @@
       "description": "Apple iPad Air with A14 Bionic chip, 10.9-inch Liquid Retina display, and 12MP back camera.",
       "category": "tablets",
       "colors": ["Space Grey", "Silver", "Rose Gold"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.apple.com/in/newsroom/2020/09/apple-unveils-all-new-ipad-air-with-a14-bionic-apples-most-advanced-chip/"
   },
   {
       "product_id": 223,
@@ -311,7 +333,8 @@
       "category": "clothing",
       "sizes": ["S", "M", "L", "XL"],
       "colors": ["Black", "Grey", "Navy"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.nike.com/t/sportswear-club-fleece-pullover-hoodie-Gw4Nwq"
   },
   {
       "product_id": 224,
@@ -324,7 +347,8 @@
       "description": "Sony Bravia 55-inch 4K TV with HDR, Triluminos display, and voice control.",
       "category": "electronics",
       "colors": ["Black"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.sony.co.in/content/sony/in/in/en-in/general/televisions-home-theatre/bravia/products/bravia-3---s30b.html"
   },
   {
       "product_id": 225,
@@ -338,7 +362,8 @@
       "category": "laptops",
       "colors": ["Eclipse Grey"],
       "sizes": ["16GB RAM, 1TB SSD"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://rog.asus.com/laptops/rog-strix/2021-rog-strix-g15-series/"
   },
   {
       "product_id": 226,
@@ -351,7 +376,8 @@
       "description": "Fitbit Charge 5 with built-in GPS, stress management, and sleep tracking features.",
       "category": "wearables",
       "colors": ["Black", "Lunar White"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.fitbit.com/global/in/products/trackers/charge5"
   },
   {
       "product_id": 227,
@@ -364,7 +390,8 @@
       "description": "Apple AirPods Pro with active noise cancellation, transparency mode, and MagSafe charging.",
       "category": "accessories",
       "colors": ["White"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.apple.com/in/shop/product/MTJV3HN/A/airpods-pro"
   },
   {
       "product_id": 228,
@@ -377,7 +404,8 @@
       "description": "Bose SoundLink Revolve+ Bluetooth speaker with 360-degree sound and up to 16 hours of battery life.",
       "category": "electronics",
       "colors": ["Triple Black", "Lux Grey"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.boseindia.com/en_in/products/speakers/portable_speakers/soundlink-revolve-plus-ii.html"
   },
   {
       "product_id": 229,
@@ -390,7 +418,8 @@
       "description": "Logitech MX Master 3 with ultra-fast scroll wheel, ergonomic design, and customizable buttons.",
       "category": "accessories",
       "colors": ["Graphite", "Midnight Teal"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.logitech.com/en-in/products/mice/mx-master-3s.910-006561.html"
   },
   {
       "product_id": 230,
@@ -403,6 +432,7 @@
       "description": "Samsung Galaxy Tab S7 FE with 12.4-inch display, S Pen support, and Snapdragon 750G.",
       "category": "tablets",
       "colors": ["Mystic Black", "Mystic Silver"],
-      "toCart": false
+      "toCart": false,
+      "features":"https://www.samsung.com/in/tablets/galaxy-tab-s/galaxy-tab-s7-fe-black-64gb-sm-t735nzkainu/"
   }
 ]

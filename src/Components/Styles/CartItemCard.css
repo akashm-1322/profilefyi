@@ -1,0 +1,56 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.btn {
+    margin-right: 0.5rem;
+}
+
+.btn-success {
+    margin-left: 0.5rem;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.total-cost {
+    margin-top: 1rem;
+    text-align: right;
+}
+
+.total-cost h4 {
+    margin-bottom: 0.5rem;
+}
