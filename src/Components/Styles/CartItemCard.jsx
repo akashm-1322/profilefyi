@@ -6,11 +6,21 @@ const CartItemCard = ({ item, updateQuantity, removeFromCart , stock }) => {
     const [quantity, setQuantity] = useState(item.quantity);
 
     const handleSave = () => {
-        updateQuantity(item.id, quantity);
-        setEditMode(false);
+        if (quantity <= 0) {
+            removeFromCart(item.id);
+        } else {
+            updateQuantity(item.id, quantity);
+            setEditMode(false);
+        }
     };
 
-
+    const handleDecrement = () => {
+        if (quantity > 1) {
+            setQuantity(quantity - 1);
+        } else {
+            removeFromCart(item.id);
+        }
+    };
 
     return (
         <div className="card mb-4">
@@ -28,7 +38,7 @@ const CartItemCard = ({ item, updateQuantity, removeFromCart , stock }) => {
                             type="number" 
                             value={quantity} 
                             onChange={(e) => setQuantity(parseInt(e.target.value, 10))} 
-                            min="1" 
+                            min="0" 
                             max={stock}
                             className="form-control mb-2"
                         />
@@ -37,12 +47,14 @@ const CartItemCard = ({ item, updateQuantity, removeFromCart , stock }) => {
                 ) : (
                     <div>
                         <p>Quantity: {quantity}</p>
+                        <button className="btn btn-secondary mr-2" onClick={handleDecrement}>-</button>
                         <button className="btn btn-primary" onClick={() => setEditMode(true)}>Edit</button>
                     </div>
                 )}
 
-                <button className="btn btn-danger mt-2" onClick={() => removeFromCart(item.id)}>Remove</button>
+               
             </div>
+            <button className="btn btn-danger mt-2" onClick={() => removeFromCart(item.id)}>Remove all</button>
         </div>
     );
 };

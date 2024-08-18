@@ -1,22 +1,21 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { CartContext } from './CartContext';
 import CartItemCard from './CartItemCard';
 import './CartPage.css';
 
-const CartPage = ({ cart, updateQuantity, removeFromCart }) => {
+const CartPage = () => {
     const navigate = useNavigate();
-    const totalCost = cart.reduce(
-        (total, item) =>
-            total + (item.price - item.discountPercentage * 0.01 * item.price) * item.quantity,
-        0
-    );
-
-    const handleBuyNow = () => {
-        navigate('/BuyNow', { state: { totalMoney: totalCost } });
-    };
+    const { cart, updateQuantity, removeFromCart, money } = useContext(CartContext);
+    const globalDiscount = 10;
+    const totalCostAfterDiscount = money * (1 - globalDiscount / 100);
 
     const handleBackToHome = () => {
         navigate('/');
+    };
+
+    const handleBuyNow = () => {
+        navigate('/BuyNow', { state: { totalMoney: totalCostAfterDiscount.toFixed(2) } });
     };
 
     return (
@@ -31,11 +30,11 @@ const CartPage = ({ cart, updateQuantity, removeFromCart }) => {
                 />
             ))}
             <div className="cart-flex">
-            <div className="total-cost">
-                <h4>Total Cost: ₹{totalCost.toFixed(2)}</h4>
-                <button className="btn btn-success" onClick={handleBuyNow}>Buy Now</button>
-            </div>
-            <button className="btn btn-primary backhome mt-2" onClick={handleBackToHome}>Back to Home</button>
+                <div className="total-cost">
+                    <h4>Total Cost: ₹{totalCostAfterDiscount.toFixed(2)} (10% discount applied)</h4>
+                    <button className="btn btn-success" onClick={handleBuyNow}>Buy Now</button>
+                </div>
+                <button className="btn btn-primary backhome mt-2" onClick={handleBackToHome}>Back to Home</button>
             </div>
         </div>
     );

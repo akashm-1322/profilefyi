@@ -3,11 +3,12 @@
     border-radius: 0.25rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 1rem;
+    transition: background-color 0.3s, border 0.3s;
 }
 
-.card:hover{
-  background-color: #6f93b9;
-  border: 3px solid black;
+.card:hover {
+    background-color: #6f93b9;
+    border: 3px solid black;
 }
 
 .card-img-top {

@@ -1,20 +1,8 @@
-.cart-image{
-    width: 100%;
-    height:400px;
-    position:relative
-}
-.cart-items{
-    width: 300px;
-    height:800px;
-    border: 2px solid black;
-    box-shadow: 2px 2px 2px;
-    list-style-type: none;
-}
-
 .cart-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    padding: 1rem;
 }
 
 .cart-container .card {
@@ -60,37 +48,31 @@
     border-color: #007bff;
 }
 
-.cart-container .total-cost {
-    margin-top: 1rem;
-    text-align: right;
-}
-
-.cart-container .total-cost h4 {
-    margin-bottom: 0.5rem;
-}
-
-.total-cost{
+.total-cost {
     border: 2px solid black;
     box-shadow: 2px 2px 2px;
     align-items: center;
     padding: 5px;
     border-radius: 3%;
     height: 100px;
+    margin-top: 1rem;
+    text-align: right;
 }
 
-.btn-success{
+.btn-success {
     position: relative;
 }
 
-.backhome{
+.backhome {
     position: relative;
     width: 120px;
-    height:40px;
-    color:black;
+    height: 40px;
+    color: black;
     box-shadow: 2px 2px 2px;
     border: 1px solid black;
 }
-.cart-flex{
-    display:flex;
+
+.cart-flex {
+    display: flex;
     flex-direction: column;
 }

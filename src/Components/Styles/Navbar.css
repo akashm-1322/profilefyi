@@ -1,29 +1,33 @@
-.add-to-cart img,.logo{
+.add-to-cart img, .logo {
     position: relative;
-    width:60px;
-    height:60px;
-    top:0px;
+    width: 60px;
+    height: 60px;
 }
-img{
+
+img {
     position: relative;
-    width:100%;
+    width: 100%;
     height: 100%;
 }
-.cart-img{
+
+.cart-img {
     background-color: #0faade;
     box-shadow: 2px 2px 2px;
 }
-.form-control,.search-button{
-    box-shadow: 5px 5px 5px; 
+
+.form-control, .search-button {
+    box-shadow: 5px 5px 5px;
     border: 1px solid black;
 }
-.add-to-cart{
+
+.add-to-cart {
     display: flex;
     flex-direction: row;
-    color:black;
+    color: black;
     gap: 5px;
 }
-.search-button{
+
+.search-button {
     background-color: #689aab;
     border: 1px solid black;
     color: black;
